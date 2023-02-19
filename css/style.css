@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body {
+    background-color: beige;
+}
+
+@keyframes bgImage {
+    0% {left: -1000px;}
+    85% {left: 100px;}
+    100% {left: 0;}
+}
+
+.bg-image {
+    animation: bgImage;
+    position: relative;
+    animation-duration: 2s;
+
+    border-radius: 10px;
+    padding: 200px;
+    background-size: 1800px 1000px;
+    background-image: url("https://images6.alphacoders.com/128/1289150.jpg");
+    background-repeat: no-repeat;
+}
+
+@keyframes bgText {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+#bg-text {
+    animation: bgText;
+    position: relative;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    animation-duration: 1s;
+    animation-delay: 2s;
+
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 5px 2px #383838;
+    font-size: 5rem;
+    text-align: left;
+    color: rgb(255, 6, 14);
+}
+
+@keyframes tables {
+    0% {transform: translateY(1000px);}
+    100% {transform: translateY(0);}
+}
+
+.tables {
+    animation: tables;
+    position: relative;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+
+    border-radius: 10px;
+    background-color: rgb(215, 215, 176);
+    margin: 0;
+    width: auto;  
+    text-align: center;
+}
+.serveerimine {
+    font-size: 20px;
+    table-layout: auto;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.besee {
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: auto;
+}
+
+.valmistamine-header {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+th {
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(10, 10, 10);
+}
+
+td {
+    color: red;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.valmistamine {
+    margin: 0;
+    font-size: 20px;
+    display: inline-block;
+    width: 1000px;    
+}
+
+.besee-header {
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.serveerimine-header {
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.footer-hr {
+    width: 300px;
+}
+
+.footer {
+    text-align: center;
+}
+
+@keyframes Main {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.main {
+    animation: Main;
+    position: relative;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0px;
+    height: 106px;
+    display: inline-block;
+}
